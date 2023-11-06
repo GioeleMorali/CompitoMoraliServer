@@ -37,6 +37,7 @@ public class ServerThread extends Thread{
             } while (!esci);
             output.writeBytes("ESCI" + '\n');
             s.close();
+            System.out.println("ESCI");
         } catch (Exception e) {
             System.out.println("ESCI");
         }
